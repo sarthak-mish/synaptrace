@@ -3,6 +3,15 @@
   "version": "1.0.2",
   "description": "Zero-config API performance intelligence for Node.js — intercepts HTTP traffic, captures telemetry, and generates professional PDF reports.",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+hhttps://github.com/sarthak-mish/synaptrace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarthak-mish/synaptrace/issues"
+  },
+  "homepage": "https://github.com/sarthak-mish/synaptrace/blob/main/README.md"
+},
   "engines": {
     "node": ">=20.0.0"
   },
