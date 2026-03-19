@@ -10,8 +10,7 @@
   "bugs": {
     "url": "https://github.com/sarthak-mish/synaptrace/issues"
   },
-  "homepage": "https://github.com/sarthak-mish/synaptrace/blob/main/README.md"
-},
+  "homepage": "https://github.com/sarthak-mish/synaptrace/blob/main/README.md",
   "engines": {
     "node": ">=20.0.0"
   },
