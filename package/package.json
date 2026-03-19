@@ -1,0 +1,46 @@
+{
+  "name": "synaptrace",
+  "version": "1.0.0",
+  "description": "Zero-config API performance intelligence for Node.js — intercepts HTTP traffic, captures telemetry, and generates professional PDF reports.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:coverage": "jest --runInBand --coverage",
+    "example": "node example/server.js"
+  },
+  "keywords": [
+    "api",
+    "monitoring",
+    "performance",
+    "telemetry",
+    "pdf",
+    "apm",
+    "observability",
+    "node",
+    "synaptrace"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "testTimeout": 30000,
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/pdf-worker.js"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# Ignore development files
+tests/
+examples/
+.github/
+.vscode/
+
+# Ignore local artifacts
+node_modules/
+logs/
+reports/*.pdf
+.env
