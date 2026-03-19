@@ -1,6 +1,6 @@
 {
   "name": "synaptrace",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zero-config API performance intelligence for Node.js — intercepts HTTP traffic, captures telemetry, and generates professional PDF reports.",
   "main": "src/index.js",
   "repository": {
